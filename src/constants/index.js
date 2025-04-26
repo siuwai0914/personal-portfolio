@@ -519,6 +519,11 @@ export const projects = [
         icon: DiCss3,
         name: "CSS"
       },
+      {
+        id: "icon-5",
+        icon: SiMongodb,
+        name: "Mongodb"
+      },
     ],
   },
   {
