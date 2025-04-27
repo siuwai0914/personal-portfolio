@@ -8,7 +8,8 @@ import {
   kody,
   bullsandcows,
   numberguessinggame,
-  snakegame
+  snakegame,
+  miniurl
 } from "../assets";
 
 import {
@@ -392,11 +393,11 @@ export const experiences = [
         duration: "Jun 2021 - May 2022",
         content: [
           {
-            text: "Led a payment team of four in implementing numerous payment gateways for the online shopping mall, including Citibank Direct Payment Gateway, Octopus, Atome, AlipayHK, and WeChat Pay.",
+            text: "Led a payment team of four in implementing numerous payment gateways for the online shopping mall, including Octopus, Atome, AlipayHK, and WeChatPay.",
             link: "",
           },
           {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
+            text: "Built microservice architecture for payment gateway processes",
             link: "",
           },
         ],
@@ -406,7 +407,11 @@ export const experiences = [
         duration: "Oct 2020 - Jun 2021",
         content: [
           {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
+            text: "Developed HKTVpay for HKTV O2O Shop. ",
+            link: "",
+          },
+          {
+            text: "Developed payment APIs for HKTV Express. ",
             link: "",
           },
         ],
@@ -416,7 +421,7 @@ export const experiences = [
         duration: "Dec 2018 - Oct 2020",
         content: [
           {
-            text: "Added Conditional Fields support to the Forms Module.",
+            text: "Developed and coordinated with external parties like Citibank for project planning including Citibank Direct Payment Gateway",
             link: "",
           },
         ],
@@ -496,6 +501,7 @@ export const projects = [
     id: "project-3",
     title: "MiniURL",
     link: "https://miniurl-seven.vercel.app/",
+    image: miniurl,
     content:
       "An Flask application that can shorten the URL",
     stack: [

@@ -13,6 +13,7 @@ import googlecsfirst from "./googlecsfirst.jpg"
 import bullsandcows from "./bullsandcows.png"
 import numberguessinggame from "./numberguessinggame.png"
 import snakegame from "./snakegame.png"
+import miniurl from "./miniurl.svg"
 
 export {
   menu,
@@ -29,5 +30,6 @@ export {
   googlecsfirst,
   bullsandcows,
   numberguessinggame,
-  snakegame
+  snakegame,
+  miniurl
 };
