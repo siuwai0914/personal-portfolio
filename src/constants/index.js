@@ -45,7 +45,8 @@ import {
   SiPhp,
   SiJson,
   SiPandas,
-  SiDocker
+  SiDocker,
+  SiApachemaven
 } from "react-icons/si";
 
 import {
@@ -313,7 +314,12 @@ export const skills = [
         id: "t-11",
         icon: SiDocker,
         name: "Docker",
-      }
+      },
+      {
+        id: "t-12",
+        icon: SiApachemaven,
+        name: "Maven",
+      },
     ],
   },
 ];
