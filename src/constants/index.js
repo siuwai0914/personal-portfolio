@@ -46,12 +46,17 @@ import {
   SiJson,
   SiPandas,
   SiDocker,
-  SiApachemaven
+  SiApachemaven,
+  SiMacos
 } from "react-icons/si";
 
 import {
   FaUnity
 } from "react-icons/fa6";
+
+import { 
+  FaWindows 
+} from "react-icons/fa";
 
 import { 
   BiLogoFlask,
@@ -67,7 +72,13 @@ import {
   BsFiletypeXml 
 } from "react-icons/bs";
 
-import { DiCss3, DiJava, DiRuby } from "react-icons/di";
+import { 
+  FcLinux 
+} from "react-icons/fc";
+
+import { 
+  DiCss3, DiJava, DiRuby 
+} from "react-icons/di";
 
 export const resumeLink = "";
 export const repoLink = "https://github.com/siuwai0914/personal-portfolio";
@@ -319,6 +330,26 @@ export const skills = [
         id: "t-12",
         icon: SiApachemaven,
         name: "Maven",
+      },
+    ],
+  },
+  {
+    title: "Operating System",
+    items: [
+      {
+        id: "os-1",
+        icon: SiMacos,
+        name: "Mac",
+      },
+      {
+        id: "os-2",
+        icon: FcLinux,
+        name: "Linux",
+      },
+      {
+        id: "os-3",
+        icon: FaWindows,
+        name: "Window",
       },
     ],
   },
