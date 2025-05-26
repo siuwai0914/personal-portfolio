@@ -47,7 +47,8 @@ import {
   SiPandas,
   SiDocker,
   SiApachemaven,
-  SiMacos
+  SiMacos,
+  SiStreamlit
 } from "react-icons/si";
 
 import {
@@ -331,6 +332,11 @@ export const skills = [
         icon: SiApachemaven,
         name: "Maven",
       },
+      {
+        id: "t-13",
+        icon: SiStreamlit,
+        name: "Streamlit",
+      },
     ],
   },
   {
@@ -565,7 +571,7 @@ export const projects = [
       {
         id: "icon-5",
         icon: SiMongodb,
-        name: "Mongodb"
+        name: "MongoDB"
       },
     ],
   },
