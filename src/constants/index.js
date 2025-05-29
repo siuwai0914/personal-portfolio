@@ -48,7 +48,8 @@ import {
   SiDocker,
   SiApachemaven,
   SiMacos,
-  SiStreamlit
+  SiStreamlit,
+  SiDatadog
 } from "react-icons/si";
 
 import {
@@ -336,6 +337,11 @@ export const skills = [
         id: "t-13",
         icon: SiStreamlit,
         name: "Streamlit",
+      },
+      {
+        id: "t-14",
+        icon: SiDatadog,
+        name: "Datadog",
       },
     ],
   },
