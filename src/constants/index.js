@@ -49,7 +49,8 @@ import {
   SiApachemaven,
   SiMacos,
   SiStreamlit,
-  SiDatadog
+  SiDatadog,
+  SiNumpy
 } from "react-icons/si";
 
 import {
@@ -252,6 +253,11 @@ export const skills = [
         id: "f-11",
         icon: SiPandas,
         name: "Pandas",
+      },
+       {
+        id: "f-12",
+        icon: SiNumpy,
+        name: "Numpy",
       },
     ],
   },
