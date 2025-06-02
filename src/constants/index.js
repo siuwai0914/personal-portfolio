@@ -9,7 +9,8 @@ import {
   bullsandcows,
   numberguessinggame,
   snakegame,
-  miniurl
+  miniurl,
+  csfirstphoto
 } from "../assets";
 
 import {
@@ -743,6 +744,7 @@ export const extraCurricular = [
       },
     ],
     logo: googlecsfirst,
+    image: csfirstphoto
   },
 ];
 

@@ -31,6 +31,14 @@ const ExtraCurricularCard = (props) => {
       whileInView={{ y: [-30, 0], opacity: [0, 1] }}
       transition={{ duration: 1 }}
     >
+      {props.image && (
+        <img
+          src={props.image}
+          alt={props.organisation + " banner"}
+          className="w-full h-40 object-cover rounded-lg mb-5"
+        />
+      )}
+
       <div className="flex flex-row">
         <img
           src={props.logo}
