@@ -15,6 +15,7 @@ import numberguessinggame from "./numberguessinggame.png"
 import snakegame from "./snakegame.png"
 import miniurl from "./miniurl.svg"
 import csfirstphoto from "./cs-first.jpg"
+import titanic from "./titanic.png"
 
 export {
   menu,
@@ -33,5 +34,6 @@ export {
   numberguessinggame,
   snakegame,
   miniurl,
-  csfirstphoto
+  csfirstphoto,
+  titanic
 };

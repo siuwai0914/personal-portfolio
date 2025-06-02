@@ -10,7 +10,8 @@ import {
   numberguessinggame,
   snakegame,
   miniurl,
-  csfirstphoto
+  csfirstphoto,
+  titanic
 } from "../assets";
 
 import {
@@ -73,7 +74,8 @@ import {
 } from "react-icons/tb";
 
 import { 
-  BsFiletypeXml 
+  BsFiletypeXml ,
+  BsFiletypeCsv
 } from "react-icons/bs";
 
 import { 
@@ -194,7 +196,12 @@ export const skills = [
         id: "drl-3",
         icon: SiJson,
         name: "JSON",
-      }
+      },
+      {
+        id: "drl-4",
+        icon: BsFiletypeCsv,
+        name: "CSV",
+      },
     ],
   },
   {
@@ -635,6 +642,36 @@ export const projects = [
         id: "icon-3",
         icon: SiJavascript,
         name: "Javascript"
+      },
+    ],
+  },
+  {
+    id: "project-6",
+    title: "Titanic Survival Prediction",
+    link: "https://predictiontitanic.streamlit.app/",
+    image: titanic,
+    content:
+      "A prediction model with Machine Learning that uses data to guess if passengers survived the Titanic sinking. It looks at factors like age, gender, and ticket class to make its guesses.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: SiPandas,
+        name: "Pandas"
+      },
+      {
+        id: "icon-3",
+        icon: SiNumpy,
+        name: "Numpy"
+      },
+      {
+        id: "icon-4",
+        icon: SiStreamlit,
+        name: "Streamlit"
       },
     ],
   },
