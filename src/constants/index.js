@@ -11,7 +11,8 @@ import {
   snakegame,
   miniurl,
   csfirstphoto,
-  titanic
+  titanic,
+  spaceinvader
 } from "../assets";
 
 import {
@@ -60,7 +61,8 @@ import {
 } from "react-icons/fa6";
 
 import { 
-  FaWindows 
+  FaWindows, 
+  FaItchIo
 } from "react-icons/fa";
 
 import { 
@@ -357,6 +359,11 @@ export const skills = [
         icon: SiDatadog,
         name: "Datadog",
       },
+      {
+        id: "t-15",
+        icon: FaItchIo,
+        name: "itch.io"
+      },
     ],
   },
   {
@@ -562,36 +569,21 @@ export const projects = [
   },
   {
     id: "project-3",
-    title: "MiniURL",
-    link: "https://miniurl-seven.vercel.app/",
-    image: miniurl,
+    title: "Snake Game",
+    link: "https://siuwai0914.itch.io/snake-game",
+    image: snakegame,
     content:
-      "An Flask application that can shorten the URL",
+      "Classic Snake Game: Simple, addictive, and fun! The snake speeds up as it grows longer. Highest score saved.",
     stack: [
       {
         id: "icon-1",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-2",
         icon: SiPython,
         name: "Python"
       },
       {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-4",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-5",
-        icon: SiMongodb,
-        name: "MongoDB"
+        id: "icon-2",
+        icon: FaItchIo,
+        name: "itch.io"
       },
     ],
   },
@@ -672,6 +664,61 @@ export const projects = [
         id: "icon-4",
         icon: SiStreamlit,
         name: "Streamlit"
+      },
+    ],
+  },
+  {
+    id: "project-7",
+    title: "Space Invader",
+    link: "https://siuwai0914.itch.io/space-invader/",
+    image: spaceinvader,
+    content:
+      "This is a classic 2D space shooter game built with Python and Pygame.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-2",
+        icon: FaItchIo,
+        name: "itch.io"
+      },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "MiniURL",
+    link: "https://miniurl-seven.vercel.app/",
+    image: miniurl,
+    content:
+      "An Flask application that can shorten the URL",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiFlask,
+        name: "Flask"
+      },
+      {
+        id: "icon-2",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-4",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-5",
+        icon: SiMongodb,
+        name: "MongoDB"
       },
     ],
   },

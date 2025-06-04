@@ -16,6 +16,7 @@ import snakegame from "./snakegame.png"
 import miniurl from "./miniurl.svg"
 import csfirstphoto from "./cs-first.jpg"
 import titanic from "./titanic.png"
+import spaceinvader from "./space_invader.png"
 
 export {
   menu,
@@ -35,5 +36,6 @@ export {
   snakegame,
   miniurl,
   csfirstphoto,
-  titanic
+  titanic,
+  spaceinvader
 };
