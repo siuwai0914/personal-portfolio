@@ -17,6 +17,7 @@ import miniurl from "./miniurl.svg"
 import csfirstphoto from "./cs-first.jpg"
 import titanic from "./titanic.png"
 import spaceinvader from "./space_invader.png"
+import memorygame from "./memorygame.png"
 
 export {
   menu,
@@ -37,5 +38,6 @@ export {
   miniurl,
   csfirstphoto,
   titanic,
-  spaceinvader
+  spaceinvader,
+  memorygame
 };

@@ -12,7 +12,8 @@ import {
   miniurl,
   csfirstphoto,
   titanic,
-  spaceinvader
+  spaceinvader,
+  memorygame
 } from "../assets";
 
 import {
@@ -725,6 +726,31 @@ export const projects = [
         id: "icon-5",
         icon: SiMongodb,
         name: "MongoDB"
+      },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "Country Flag Memory Game",
+    link: "https://chromewebstore.google.com/detail/country-flag-memory-game/anebppjnjlppafogdlkgekijfalngdlj",
+    image: memorygame,
+    content:
+      "Match pairs of country flags by flipping cards. Test your memory and learn flags in this fun and interactive game!",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-2",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "Javascript"
       },
     ],
   },
