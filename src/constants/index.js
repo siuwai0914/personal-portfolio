@@ -55,7 +55,8 @@ import {
   SiStreamlit,
   SiDatadog,
   SiNumpy,
-  SiPytest
+  SiPytest,
+  SiGoogleappsscript
 } from "react-icons/si";
 
 import {
@@ -370,6 +371,11 @@ export const skills = [
         id: "t-15",
         icon: FaItchIo,
         name: "itch.io"
+      },
+      {
+        id: "t-16",
+        icon: SiGoogleappsscript,
+        name: "Google App Script"
       },
     ],
   },
