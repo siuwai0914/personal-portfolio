@@ -18,6 +18,9 @@ import csfirstphoto from "./cs-first.jpg"
 import titanic from "./titanic.png"
 import spaceinvader from "./space_invader.png"
 import memorygame from "./memorygame.png"
+import weather from "./weather.png"
+import nikewebscraping from "./nikewebscraping.png"
+import footballnews from "./footballnews.png"
 
 export {
   menu,
@@ -39,5 +42,8 @@ export {
   csfirstphoto,
   titanic,
   spaceinvader,
-  memorygame
+  memorygame,
+  weather,
+  nikewebscraping,
+  footballnews
 };

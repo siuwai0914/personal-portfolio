@@ -13,7 +13,10 @@ import {
   csfirstphoto,
   titanic,
   spaceinvader,
-  memorygame
+  memorygame,
+  weather,
+  nikewebscraping,
+  footballnews
 } from "../assets";
 
 import {
@@ -65,7 +68,8 @@ import {
 
 import { 
   FaWindows, 
-  FaItchIo
+  FaItchIo,
+  FaBootstrap
 } from "react-icons/fa";
 
 import { 
@@ -277,6 +281,12 @@ export const skills = [
         icon: SiPytest,
         name: "Pytest",
       },
+      {
+        id: "f-14",
+        icon: FaBootstrap,
+        name: "Bootstrap",
+      },
+      
     ],
   },
   {
@@ -757,6 +767,111 @@ export const projects = [
         id: "icon-3",
         icon: SiJavascript,
         name: "Javascript"
+      },
+    ],
+  },
+  {
+    id: "project-10",
+    title: "Hong Kong Weather Forecast",
+    link: "https://data-science-phi.vercel.app/hkweather",
+    image: weather,
+    content:
+      "This is a Flask-powered web application that fetches and displays the latest 9-day weather forecast for Hong Kong using real-time data from the Hong Kong Observatory Open Data API.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-2",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+      {
+        id: "icon-4",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-5",
+        icon: SiFlask,
+        name: "Flask"
+      },
+    ],
+  },
+  {
+    id: "project-11",
+    title: "Nike Product Price Web Scraping",
+    link: "https://data-science-phi.vercel.app/nike",
+    image: nikewebscraping,
+    content:
+      "This is a Flask-powered web application that fetches and displays the price of different categories of product in Nike.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-2",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+      {
+        id: "icon-4",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-5",
+        icon: SiFlask,
+        name: "Flask"
+      },
+    ],
+  },
+  {
+    id: "project-12",
+    title: "Football News - SCMP",
+    link: "https://data-science-phi.vercel.app/footballnews",
+    image: footballnews,
+    content:
+      "This is a Flask-powered web application that fetches and displays the football news in SCMP.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-2",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+      {
+        id: "icon-4",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-5",
+        icon: SiFlask,
+        name: "Flask"
       },
     ],
   },
