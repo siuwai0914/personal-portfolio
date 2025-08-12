@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://timmycheung.netlify.app/sitemap.xml
