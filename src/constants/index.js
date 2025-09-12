@@ -1014,7 +1014,7 @@ export const aboutMe = {
     name: "Timmy Cheung",
     githubUsername: 'siuwai0914',
     tagLine: "Full-Stack Developer | Python | Java | Payment",
-    intro: "Software Developer from Hong Kong who is either busy improving his craft or pondering over the next big idea."
+    intro: "A graduate of The University of Hong Kong with a Bachelor of Engineering in Computer Science, specialising in backend technologies like Java Spring Boot and Python."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
