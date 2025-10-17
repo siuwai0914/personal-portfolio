@@ -2,6 +2,7 @@ import React from "react";
 import { experiences, skills } from "../constants";
 import { layout } from "../style";
 import { motion } from "framer-motion";
+import { ExternalLink } from "react-feather"; 
 
 export const SkillIcon = ({ icon, name }) => {
   return (
@@ -36,6 +37,7 @@ const SkillCard = (props) => {
   );
 };
 
+
 const Content = ({ text, link }) => {
   return (
     <div>
@@ -68,8 +70,18 @@ const ExperienceCard = (props) => {
           alt={props.organisation}
           className="w-[52px] h-[52px] rounded-full z-[2]"
         />
-        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2">
+        <h4 className="font-poppins font-semibold text-[20px] text-gradient leading-[32px] ml-2 flex items-center">
           {props.organisation}
+          {props.organisation === "Preface" && (
+            <a
+              href="https://timmy-student-projects.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="ml-2 hover:text-teal-300"
+            >
+              <ExternalLink size={18} color="white"/>
+            </a>
+          )}
         </h4>
       </div>
       <ol className="relative border-l border-gray-200 dark:border-gray-700 ml-6">
