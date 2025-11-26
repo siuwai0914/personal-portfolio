@@ -59,7 +59,8 @@ import {
   SiDatadog,
   SiNumpy,
   SiPytest,
-  SiGoogleappsscript
+  SiGoogleappsscript,
+  SiFastapi
 } from "react-icons/si";
 
 import {
@@ -286,7 +287,11 @@ export const skills = [
         icon: FaBootstrap,
         name: "Bootstrap",
       },
-      
+      {
+        id: "f-15",
+        icon: SiFastapi,
+        name: "FastAPI",
+      },
     ],
   },
   {
