@@ -21,6 +21,7 @@ import memorygame from "./memorygame.png"
 import weather from "./weather.png"
 import nikewebscraping from "./nikewebscraping.png"
 import footballnews from "./footballnews.png"
+import twoofoureight from "./2048.png"
 
 export {
   menu,
@@ -45,5 +46,6 @@ export {
   memorygame,
   weather,
   nikewebscraping,
-  footballnews
+  footballnews,
+  twoofoureight
 };

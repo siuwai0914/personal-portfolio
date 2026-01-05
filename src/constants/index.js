@@ -16,7 +16,8 @@ import {
   memorygame,
   weather,
   nikewebscraping,
-  footballnews
+  footballnews,
+  twoofoureight,
 } from "../assets";
 
 import {
@@ -70,7 +71,8 @@ import {
 import { 
   FaWindows, 
   FaItchIo,
-  FaBootstrap
+  FaBootstrap,
+  FaReact
 } from "react-icons/fa";
 
 import { 
@@ -95,6 +97,8 @@ import {
 import { 
   DiCss3, DiJava, DiRuby 
 } from "react-icons/di";
+
+import { RiNextjsFill } from "react-icons/ri";
 
 export const resumeLink = "";
 export const repoLink = "https://github.com/siuwai0914/personal-portfolio";
@@ -877,6 +881,41 @@ export const projects = [
         id: "icon-5",
         icon: SiFlask,
         name: "Flask"
+      },
+    ],
+  },
+  {
+    id: "project-13",
+    title: "2048 Game",
+    link: "https://2048-puzzle-tile-game.netlify.app/",
+    image: twoofoureight,
+    content:
+      "This is a classic 2048 Game",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-2",
+        icon: DiCss3,
+        name: "CSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "Javascript"
+      },
+      {
+        id: "icon-4",
+        icon: FaReact,
+        name: "React"
+      },
+      {
+        id: "icon-5",
+        icon: RiNextjsFill,
+        name: "Next.js"
       },
     ],
   },
