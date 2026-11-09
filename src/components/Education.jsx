@@ -1,6 +1,6 @@
 import styles, { layout } from "../style";
 import { educationList } from "../constants";
-import Lottie from "react-lottie-player";
+import Lottie from "./ClientLottie";
 import animationData from "../lotties/quiz-mode-teal-dark.json";
 import { motion } from "framer-motion";
 

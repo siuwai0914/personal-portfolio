@@ -1,6 +1,6 @@
 import styles from "../style";
 import LetsConnect from "./LetsConnect";
-import Lottie from "react-lottie-player";
+import Lottie from "./ClientLottie";
 import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
 

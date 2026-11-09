@@ -428,15 +428,15 @@ export const experiences = [
     link: "https://www.preface.ai",
     positions: [
       {
-        title: "Instructor",
+        title: "Coding Instructor",
         duration: "May 2022 - Present",
         content: [
           {
-            text: "Specializes in backend, frontend, and Unity, and teaches students of all ages, including kids, teenagers, and adults.",
+            text: "Instructed 100+ multi-demographic students, from children to corporate adults, in modern software engineering, prompt engineering and AI concepts.",
             link: "",
           },
           {
-            text: "Provide training to new instructor",
+            text: "Developed and delivered comprehensive curricula covering AI prompt engineering, LLM workflows, Python (Django, Flask, Data Science), full-stack web development (React, JavaScript, SQL), and mobile/game development (Swift, Unity).",
             link: "",
           },
         ],
@@ -453,17 +453,21 @@ export const experiences = [
         duration: "Dec 2024 - Feb 2025",
         content: [
           {
-            text: "Develops SDKs in different programming languages, including Java, PHP and Python",
-            link: ""
+            text: "Built Java, PHP, and Python SDKs enabling merchants to integrate Kody's in-store payment services.",
+            link: "",
           },
           {
-            text: "Provide sample source code in different programming languages for clients to use Kody SDKs.",
-            link: ""
+            text: "Delivered end-to-end integrations for retail clients including Miniso and Bossini, rolling out in-store payment integrations across their Hong Kong retail networks.",
+            link: "",
           },
           {
-            text: "Collaborate with clients to understand their technical requirements and design effective implementation strategies.",
-            link: ""
-          }
+            text: "Wrote sample code and technical documentation, and gathered requirements directly with client teams.",
+            link: "",
+          },
+          {
+            text: "Skills: Java, PHP, Python, PostgreSQL",
+            link: "",
+          },
         ],
       },
     ],
@@ -486,7 +490,7 @@ export const experiences = [
     ],
   },
   {
-    organisation: "HKTVmall",
+    organisation: "HKTVmall (Shoalter Technology Limited)",
     logo: hktvmall,
     link: "https://www.hktvmall.com/",
     positions: [
@@ -495,11 +499,23 @@ export const experiences = [
         duration: "Jun 2021 - May 2022",
         content: [
           {
-            text: "Led a payment team of four in implementing numerous payment gateways for the online shopping mall, including Octopus, Atome, AlipayHK, and WeChatPay.",
+            text: "Led a payment team of four in integrating 6+ major payment systems, including PayPal, Octopus, Atome, AlipayHK and WeChatPay, securing reliable transaction paths for the platform.",
             link: "",
           },
           {
-            text: "Built microservice architecture for payment gateway processes",
+            text: "Maintained and optimised VISA/MasterCard authorisation pipelines across Cybersource, AsiaPay and MPGS.",
+            link: "",
+          },
+          {
+            text: "Designed a secure tokenization architecture enabling third-party merchants to process payments using securely stored customer cards.",
+            link: "",
+          },
+          {
+            text: "Built microservice architecture for payment gateway processes, and led code reviews and production checks.",
+            link: "",
+          },
+          {
+            text: "Skills: Java Spring Boot (Java 8/11), Redis, MySQL, React",
             link: "",
           },
         ],
@@ -509,11 +525,11 @@ export const experiences = [
         duration: "Oct 2020 - Jun 2021",
         content: [
           {
-            text: "Developed HKTVpay for HKTV O2O Shop. ",
+            text: "Built proprietary microservices for HKTVpay, the payment solution for HKTV O2O retail shops.",
             link: "",
           },
           {
-            text: "Developed payment APIs for HKTV Express. ",
+            text: "Engineered high-performance payment APIs driving HKTV Express operations.",
             link: "",
           },
         ],
@@ -523,7 +539,11 @@ export const experiences = [
         duration: "Dec 2018 - Oct 2020",
         content: [
           {
-            text: "Developed and coordinated with external parties like Citibank for project planning including Citibank Direct Payment Gateway",
+            text: "Integrated and coordinated with external partners, including Citibank, on project planning and delivery of the Citibank Direct Payment Gateway.",
+            link: "",
+          },
+          {
+            text: "Automated annual insurance policy renewal and generated financial and marketing reports.",
             link: "",
           },
         ],
@@ -540,21 +560,25 @@ export const experiences = [
         duration: "July 2017 - Dec 2018",
         content: [
           {
-            text: "Developed RESTful APIs for insurance purchases within the app",
+            text: "Developed RESTful APIs for in-app insurance purchases.",
             link: "",
           },
           {
-            text: "Integrated TNG wallet and TransUnion APIs for eKYC into the Wesurance App",
+            text: "Integrated TNG wallet and TransUnion APIs for eKYC (electronic know-your-customer) verification.",
             link: "",
           },
           {
-            text: "Created websites for purchasing travel insurance online, as well as promotional websites for the marketing team.",
+            text: "Built an online travel insurance platform and promotional websites for the marketing team.",
+            link: "",
+          },
+          {
+            text: "Skills: Java Spring Boot (Java 8), MongoDB, MySQL, JavaScript, HTML5",
             link: "",
           },
         ],
       },
     ],
-  }
+  },
 ];
 
 // Add information about all the projects to be listed out in your portfolio
@@ -565,7 +589,7 @@ export const projects = [
     link: "https://chromewebstore.google.com/detail/bulls-and-cows-game/lnlpicpfopckcjfaoeablgpmdiabcpfh",
     image: bullsandcows,
     content:
-      "Bulls and Cows is a classic code-breaking mind game that can be played in a single-player format. In this version, the game generates a secret code, a 4-digit number with all unique digits, and the player attempts to guess it.",
+      "A single-player Bulls and Cows code-breaking game, available as a Chrome extension. The game generates a secret 4-digit number with all unique digits, and you guess it using feedback on correct digits and positions. Built with HTML, CSS and JavaScript.",
     stack: [
       {
         id: "icon-1",
@@ -590,7 +614,7 @@ export const projects = [
     link: "https://apps.apple.com/us/app/bulls-and-cows-game/id6743632577",
     image: bullsandcows,
     content:
-      "Bulls and Cows is a classic code-breaking mind game that can be played in a single-player format. In this version, the game generates a secret code, a 4-digit number with all unique digits, and the player attempts to guess it.",
+      "A native iOS version of the classic Bulls and Cows code-breaking game, published on the App Store. The game generates a secret 4-digit number with all unique digits and the player tries to guess it. Built with Swift.",
     stack: [
       {
         id: "icon-1",
@@ -605,7 +629,7 @@ export const projects = [
     link: "https://siuwai0914.itch.io/snake-game",
     image: snakegame,
     content:
-      "Classic Snake Game: Simple, addictive, and fun! The snake speeds up as it grows longer. Highest score saved.",
+      "A classic Snake game built with Python and published on itch.io. The snake speeds up as it grows longer, and your highest score is saved.",
     stack: [
       {
         id: "icon-1",
@@ -621,11 +645,11 @@ export const projects = [
   },
   {
     id: "project-4",
-    title: "Snake Game",
+    title: "Snake Game (Chrome Extension)",
     link: "https://chromewebstore.google.com/detail/snake-game/khcpichjabclbbhngajmmdbdodjgbnck",
     image: snakegame,
     content:
-      "Classic Snake Game: Simple, addictive, and fun! The snake speeds up as it grows longer. Highest score saved.",
+      "A classic Snake game available as a Chrome extension. The snake speeds up as it grows longer, and your highest score is saved. Built with HTML, CSS and JavaScript.",
     stack: [
       {
         id: "icon-1",
@@ -646,11 +670,11 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Number Guessing Game",
+    title: "Number Guessing Game (Chrome Extension)",
     link: "https://chromewebstore.google.com/detail/number-guessing-game/jfemcpegabojooeagmbllbkgcebemcea",
     image: numberguessinggame,
     content:
-      "A fun and easy number guessing game",
+      "A simple number guessing game available as a Chrome extension: pick a number range, make your guesses, and get hints until you find the secret number. Built with HTML, CSS and JavaScript.",
     stack: [
       {
         id: "icon-1",
@@ -675,7 +699,7 @@ export const projects = [
     link: "https://predictiontitanic.streamlit.app/",
     image: titanic,
     content:
-      "A prediction model with Machine Learning that uses data to guess if passengers survived the Titanic sinking. It looks at factors like age, gender, and ticket class to make its guesses.",
+      "A machine learning web app that predicts whether a Titanic passenger would have survived, based on factors such as age, gender and ticket class. Built with Python, Pandas and NumPy, and deployed with Streamlit.",
     stack: [
       {
         id: "icon-1",
@@ -705,7 +729,7 @@ export const projects = [
     link: "https://siuwai0914.itch.io/space-invader/",
     image: spaceinvader,
     content:
-      "This is a classic 2D space shooter game built with Python and Pygame.",
+      "A classic 2D space shooter game built with Python and Pygame, published on itch.io.",    
     stack: [
       {
         id: "icon-1",
@@ -725,7 +749,7 @@ export const projects = [
     link: "https://miniurl-seven.vercel.app/",
     image: miniurl,
     content:
-      "An Flask application that can shorten the URL",
+      "A URL shortener web application built with Flask and Python. Paste a long link to get a short one, with links stored in MongoDB and the app deployed on Vercel.",
     stack: [
       {
         id: "icon-1",
@@ -760,7 +784,7 @@ export const projects = [
     link: "https://chromewebstore.google.com/detail/country-flag-memory-game/anebppjnjlppafogdlkgekijfalngdlj",
     image: memorygame,
     content:
-      "Match pairs of country flags by flipping cards. Test your memory and learn flags in this fun and interactive game!",
+      "A Chrome extension memory game where you flip cards to match pairs of country flags, testing your memory while learning flags from around the world. Built with HTML, CSS and JavaScript.",
     stack: [
       {
         id: "icon-1",
@@ -785,7 +809,7 @@ export const projects = [
     link: "https://data-science-phi.vercel.app/hkweather",
     image: weather,
     content:
-      "This is a Flask-powered web application that fetches and displays the latest 9-day weather forecast for Hong Kong using real-time data from the Hong Kong Observatory Open Data API.",
+      "A Flask web application that fetches and displays the latest 9-day weather forecast for Hong Kong, using real-time data from the Hong Kong Observatory Open Data API.",
     stack: [
       {
         id: "icon-1",
@@ -820,7 +844,7 @@ export const projects = [
     link: "https://data-science-phi.vercel.app/nike",
     image: nikewebscraping,
     content:
-      "This is a Flask-powered web application that fetches and displays the price of different categories of product in Nike.",
+      "A Python and Flask web application that scrapes and displays product prices across different Nike categories, demonstrating web scraping and data presentation.",
     stack: [
       {
         id: "icon-1",
@@ -855,7 +879,7 @@ export const projects = [
     link: "https://data-science-phi.vercel.app/footballnews",
     image: footballnews,
     content:
-      "This is a Flask-powered web application that fetches and displays the football news in SCMP.",
+      "A Python and Flask web application that scrapes and displays the latest football news from the South China Morning Post (SCMP).",
     stack: [
       {
         id: "icon-1",
@@ -890,7 +914,7 @@ export const projects = [
     link: "https://2048-puzzle-tile-game.netlify.app/",
     image: twoofoureight,
     content:
-      "This is a classic 2048 Game",
+      "A browser version of the classic 2048 tile-sliding puzzle: combine matching tiles to reach 2048. Built with React and Next.js and deployed on Netlify.",
     stack: [
       {
         id: "icon-1",
@@ -1057,9 +1081,10 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Timmy Cheung",
     githubUsername: 'siuwai0914',
-    tagLine: "Full-Stack Developer | Python | Java | Payment",
-    intro: "A graduate of The University of Hong Kong with a Bachelor of Engineering in Computer Science, specialising in backend technologies like Java Spring Boot and Python."
-}
+    tagLine: "Software Engineer | Payment Systems | Java & Python | Hong Kong",
+    intro:
+    "Software engineer based in Hong Kong with 8+ years of experience in backend development, microservices and payment gateway integrations across fintech and e-commerce. I've integrated 6+ payment systems at HKTVmall, built Java, PHP and Python SDKs at Kody, and teach software engineering and AI. A graduate of The University of Hong Kong (BEng Computer Science).",
+};
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
 export const itemsToFetch = 20;
